@@ -1,9 +1,9 @@
 // Function to load the neutralization screen
-function loadScreen2() {
+function loadScreen1() {
     const container = document.getElementById('screen-container');
     container.innerHTML = `
       <h1>Welcome to Neutralization Simulation</h1>
-      <p>This is the content for Screen 2.</p>
+      <p>This is the content for Screen 1.</p>
       <canvas id="neutralization-canvas"></canvas>
       <button id="backButton">Back</button>
     `;
